@@ -9,6 +9,8 @@
 
 - 源码已直接打入了常用插件了，请先确定我仓库有没有您需要的插件，再来自行添加所需插件 【[插件包](https://github.com/281677160/openwrt-package)】
 
+- 本仓库是由编译主体、外加扩展、插件包，三部分组成的，AutoBuild-OpenWrt这个仓库就是主体，其他的外加扩展跟插件包你们是不需要理会的，每次你们启动主体编译的时候就会下载外加扩展跟插件包，这样就可以做到每次编译都同步我最新仓库的目的，一般情况下，我没修改主体的build-openwrt.yml文件，你们是不需要重复拉取我仓库来更新仓库的，如果主体文件有改变需要你们更新仓库的时候，运行至公告那里就会出错了，这个是我特意弄的，如果出现在公告那里就出错不能继续运行下去，意思就是要更新仓库了，怎么更新法，一般我都会在公告那里写，就算运行至公告错误，也可以点击公告展开来看见公告内容，无非就是复制一下AutoBuild-OpenWrt内容吧，如果连带build里面的文件也有修改的话，就要重新拉取仓库了
+
 - 启动教程视频，mp4格式，需要的自己下载。《[谷歌云](https://drive.google.com/drive/folders/1WEUtVfiVtR5lyG8aX4RcDGdUPV6uMlxt?usp=sharing)》、《[百度（密码：apek）](https://pan.baidu.com/s/1RVi4nN8Y1ak9LTWzhV5bSQ)》、《[微云](https://share.weiyun.com/33SgJdCO)》
 
 - 《[如何在本地Ubuntu一键无脑编译](https://github.com/danshui-git/shuoming/blob/master/bendi.md)》
