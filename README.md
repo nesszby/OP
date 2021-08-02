@@ -1,9 +1,9 @@
 # 择要
 
-- [Lede_source](https://github.com/coolsnowwolf/lede)=18.06=5.10
-- [Lienol_source](https://github.com/Lienol/openwrt/tree/19.07)=19.07=4.14
-- [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)=21.02=5.4
-- [openwrt_amlogic](https://github.com/coolsnowwolf/lede)=N1和晶晨系列CPU盒子专用
+- [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.10
+- [Lienol_source](https://github.com/Lienol/openwrt/tree/19.07)，Luci版本=17.01、内核版本=4.14
+- [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、内核版本=5.4
+- [openwrt_amlogic](https://github.com/coolsnowwolf/lede)，N1和晶晨系列CPU盒子专用（Luci版本=18.06、内核版本=5.4）
 
 - openwrt_amlogic文件夹，编译S905x3, S905x2, S922x, S905x, S905d, s912自动打包您所需的固件《[说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
 
@@ -15,7 +15,7 @@
 
 - 《[如何在本地Ubuntu一键无脑编译](https://github.com/danshui-git/shuoming/blob/master/bendi.md)》
  
-- 《[把定时更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
+- 《[把定时自动在线更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
 
 - 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
@@ -75,9 +75,10 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 
 #
 #
-- 感谢[coolsnowwolf](https://github.com/coolsnowwolf/lede.git)大神提供的源码
-- 感谢[Lienol](https://github.com/Lienol/openwrt.git)大神提供的源码
-- 感谢[ctcgfw](https://github.com/project-openwrt/openwrt.git)大神提供的源码
+- ## 鸣谢
+- 感谢[coolsnowwolf](https://github.com/coolsnowwolf/lede.git)大神提供的openwrt源码
+- 感谢[Lienol](https://github.com/Lienol/openwrt.git)大神提供的openwrt源码
+- 感谢[ctcgfw](https://github.com/project-openwrt/openwrt.git)大神提供的openwrt源码
 - 感谢[P3TERX](https://github.com/P3TERX/Actions-OpenWrt)大神提供的一键编译脚本
 - 感谢[garypang13](https://github.com/garypang13/Actions-OpenWrt)大神提供的一键编译脚本
 - 感谢[tuanqing](https://github.com/tuanqing/mknop)大神提供的一键打包脚本
