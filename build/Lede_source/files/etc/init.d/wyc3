@@ -16,10 +16,10 @@ start_service() {
 }
 
 service_stop() {
-	stop
+    stop
 }
 
 service_restart() {
-	stop
-	start
+    stop
+    start
 }
