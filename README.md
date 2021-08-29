@@ -1,5 +1,10 @@
 # 择要
 
+- #### 最近启动编译后，运行至开始编译步骤莫名的自动停止编译的，这个是github的动作，因为云编译浪费资源厉害，所以github要出手，一般在日志或者Actions会出现类似如下语句
+- The runner has received a shutdown signal. This can happen when the runner service is stopped, or a manually started runner is canceled.
+- 出现这样情况很有可能是连接SSH进去配置过固件的原因，如果有这情况出现，停了编译后也会有一份配置文件的，你下载配置文件，然后把内容覆盖到你编译的对应源码的.config里面，不要进SSH再次编译试试，也可以直接用我的[本地一键提取.config配置](https://github.com/danshui-git/shuoming/blob/master/yijianconfig.md)来提取到配置文件覆盖到你想编译的源码的.config里面，还是不行的话，请用我的本地一键脚本本地编译吧。
+
+#
 - [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.4
 - [Lienol_source](https://github.com/Lienol/openwrt/tree/19.07)，Luci版本=17.01、内核版本=4.14
 - [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、内核版本=5.4
@@ -14,6 +19,8 @@
 - 《[如何在本地Ubuntu一键无脑编译](https://github.com/danshui-git/shuoming/blob/master/bendi.md)》
  
 - 《[把定时自动在线更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
+
+- 《[一键重新FORK上游仓库说明](https://github.com/danshui-git/shuoming/blob/master/chongxinfork.md)》
 
 - 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
@@ -44,7 +51,7 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 #
 - 8、`SSH远程连接服务器配置固件`《[SSH连接教程](https://github.com/danshui-git/shuoming/blob/master/3SSH%E8%BF%9E%E6%8E%A5%E8%AF%B4%E6%98%8E.md)》，SSH远程默认关闭的，需要打开的请在build文件夹里面的对应机型文件夹的‘settings.ini’设置，或者按钮启动编译的时候顺手打开
 #
-- 9、`配置固件`《[youtube大神的固件配置视频教程](https://www.youtube.com/watch?v=jEE_J6-4E3Y&t=24s)》《[恩山大神xtwz整理的插件中文对照](https://www.right.com.cn/forum/thread-3682029-1-1.html)》，《[youtube大神的网卡、无线网卡配置视频教程](https://www.youtube.com/watch?v=X9v6Nd3wxkk)》，放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
+- 9、`配置固件`《[youtube大神的固件配置视频教程](https://www.youtube.com/watch?v=jEE_J6-4E3Y&t=24s)》《[插件中文名称对照](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)》，《[youtube大神的网卡、无线网卡配置视频教程](https://www.youtube.com/watch?v=X9v6Nd3wxkk)》，放视频在这里只是给大家了解一下怎么修改机型跟选择插件而已，不是叫大家对着视频照着干，千万不要这样做，你就看会什么东西在哪个位置就好了。
 #
 - 10、`完成编译，下载固件`《[固件下载教程](https://github.com/danshui-git/shuoming/blob/master/4%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD.md)》
 #
@@ -82,9 +89,10 @@ op自带的ttyd或者用putty连接OP都可以，用了命令后会一直使用�
 - [Hyy2001X](https://github.com/Hyy2001X/AutoBuild-Actions)
 - [ophub](https://github.com/ophub/amlogic-s9xxx-openwrt)
 - [nicholas-opensource](https://github.com/nicholas-opensource/OpenWrt-Autobuild)
-- [github平台](https://github.com/)
+- [hx210](https://github.com/hx210/build-actions)
 - <a href="#/README.md">hyird</a>
 - <a href="#/README.md">World Peace</a>
+- [github平台](https://github.com/)
 - <a href="#/README.md">感谢各位大佬提供的各种各样的插件</a>
 - <a href="#/README.md">感谢各位帮助过我的人，祝福各位好人一生平安</a>
 
