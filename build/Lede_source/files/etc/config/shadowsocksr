@@ -255,6 +255,7 @@ config servers
 	option alias '[速鹰666] V3-中转3373|广东-新加坡|x1.5'
 	option server 'linode-zy.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.214.228'
 
 config servers
 	option type 'ssr'
@@ -392,7 +393,7 @@ config global
 	option enable_switch '0'
 	option adblock '0'
 	option run_mode 'router'
-	option global_server 'cfg114a8f'
+	option global_server 'cfg1f4a8f'
 
 config server_subscribe
 	option auto_update_time '2'
@@ -448,6 +449,7 @@ config servers
 	option alias '[速鹰666] V3-中转3633|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'
@@ -499,6 +501,7 @@ config servers
 	option alias '[速鹰666] V3-中转3636|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'

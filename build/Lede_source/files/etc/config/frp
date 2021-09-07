@@ -19,17 +19,6 @@ config frp 'common'
 	option admin_enable '0'
 
 config proxy
-	option type 'tcp'
-	option remote_port '32122'
-	option local_ip '10.1.1.1'
-	option local_port '22'
-	option proxy_protocol_version 'disable'
-	option use_encryption '1'
-	option use_compression '1'
-	option remark 'op-ssh'
-	option enable '0'
-
-config proxy
 	option enable '1'
 	option type 'http'
 	option domain_type 'subdomain'
@@ -40,27 +29,4 @@ config proxy
 	option use_encryption '1'
 	option use_compression '1'
 	option remark 'op-web'
-
-config proxy
-	option type 'tcp'
-	option remote_port '32123'
-	option local_ip '10.1.1.10'
-	option local_port '22'
-	option proxy_protocol_version 'disable'
-	option use_encryption '1'
-	option use_compression '1'
-	option remark 'ds-ssh'
-	option enable '0'
-
-config proxy
-	option enable '1'
-	option type 'http'
-	option domain_type 'subdomain'
-	option local_ip '10.1.1.10'
-	option proxy_protocol_version 'disable'
-	option use_encryption '1'
-	option use_compression '1'
-	option local_port '5000'
-	option subdomain 'ds-web'
-	option remark 'ds-web'
 
