@@ -1,6 +1,6 @@
 127.0.0.1 localhost
 10.1.1.7 deb.vm
-10.1.1.5 deb.c rss.hub
+10.1.1.5 deb.c rss.hub scholar.c news.c
 
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
