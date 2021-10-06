@@ -1,5 +1,6 @@
 127.0.0.1 localhost
-10.1.1.5 deb.c rss.hub scholar.c news.c ttrss.c
+10.1.1.1 op.c
+10.1.1.5 deb.c rss.hub scholar.c news.c ttrss.c ql.c ninja.c
 10.1.1.7 deb.vm
 10.1.1.10 ds.c
 10.1.1.237 ubuntu.c
