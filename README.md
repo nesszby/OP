@@ -1,8 +1,10 @@
+- 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
+
 # 择要
 
-- #### 最近启动编译后，运行至开始编译步骤莫名的自动停止编译的，这个是github的动作，因为云编译浪费资源厉害，所以github要出手，一般在日志或者Actions会出现类似如下语句
-- The runner has received a shutdown signal. This can happen when the runner service is stopped, or a manually started runner is canceled.
-- 出现这样情况很有可能是连接SSH进去配置过固件的原因，如果有这情况出现，停了编译后也会有一份配置文件的，你下载配置文件，然后把内容覆盖到你编译的对应源码的.config里面，不要进SSH再次编译试试，也可以直接用我的[本地一键提取.config配置](https://github.com/danshui-git/shuoming/blob/master/yijianconfig.md)来提取到配置文件覆盖到你想编译的源码的.config里面，还是不行的话，请用我的本地一键脚本本地编译吧。
+- ## 请不要SSH连接配置固件就直接编译，这样的话，运行至开始编译步骤莫名的自动停止编译的，这个是github的动作，因为云编译浪费资源厉害，所以github要出手，一般在日志或者Actions会出现类似如下语句《[查看图片说明](https://github.com/danshui-git/shuoming/blob/master/tingzhi.md)》
+
+- ## 请先获取到对应源码的.config配置文件覆盖到对应源码的.config上，再不进行SSH连接编译固件，《[在线获取.config配置文件](https://github.com/danshui-git/shuoming/blob/master/config.md)》，或者用我的《[本地一键提取.config配置](https://github.com/danshui-git/shuoming/blob/master/yijianconfig.md)》来提取到配置文件覆盖到你想编译的源码的.config里面，还是不行的话，请用我的《[一键本地无脑编译](https://github.com/danshui-git/shuoming/blob/master/bendi.md)》本地编译吧。
 
 #
 - [Lede_source](https://github.com/coolsnowwolf/lede)，Luci版本=18.06、内核版本=5.4
@@ -10,9 +12,9 @@
 - [Mortal_source](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02)，Luci版本=21.02、内核版本=5.4
 - [openwrt_amlogic](https://github.com/coolsnowwolf/lede)，N1和晶晨系列CPU盒子专用（Luci版本=18.06、内核版本=5.4）
 
-- openwrt_amlogic文件夹，编译S905x3, S905x2, S922x, S905x, S905d, s912自动打包您所需的固件《[说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
+- openwrt_amlogic文件夹，编译S905x3, S905x2, S922x, S905x, S905d, s912《[自动打包您所需的固件说明](https://github.com/danshui-git/shuoming/blob/master/Amlogic.md)》
 
-- 源码已直接打入了常用插件了，请先确定我仓库有没有您需要的插件，再来自行添加所需插件 【[插件包](https://github.com/281677160/openwrt-package)】
+- 源码已直接加入了常用插件了，您要自己拉取插件之前，请先看看【[常用插件列表](https://github.com/danshui-git/shuoming/blob/master/%E5%90%8D%E7%A7%B0.md)】，是否带了你的插件，或者是相同功能的插件。【[插件包](https://github.com/281677160/openwrt-package)】
 
 - 启动教程视频，mp4格式，需要的自己下载。《[谷歌云](https://drive.google.com/drive/folders/1WEUtVfiVtR5lyG8aX4RcDGdUPV6uMlxt?usp=sharing)》、《[百度（密码：apek）](https://pan.baidu.com/s/1RVi4nN8Y1ak9LTWzhV5bSQ)》、《[微云](https://share.weiyun.com/33SgJdCO)》
 
@@ -21,8 +23,6 @@
 - 《[把定时自动在线更新插件编译进固件的说明](https://github.com/danshui-git/shuoming/blob/master/%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0%E6%8F%92%E4%BB%B6.md)》
 
 - 《[一键重新FORK上游仓库说明](https://github.com/danshui-git/shuoming/blob/master/chongxinfork.md)》
-
-- 《[Telegram聊天吹水群](https://t.me/heiheiheio)》- 《[Telegram中文设置方法](https://github.com/danshui-git/shuoming/blob/master/tele.md)》
 
 ```
 AdGuardHome更新核心的时候如果遇见‘A task is already running.’这个显示的话，请用命令来更新核心，
