@@ -392,8 +392,8 @@ config global
 	option netflix_server 'nil'
 	option enable_switch '0'
 	option adblock '0'
+	option global_server 'cfg204a8f'
 	option run_mode 'router'
-	option global_server 'cfg214a8f'
 
 config server_subscribe
 	option auto_update_time '2'
@@ -519,6 +519,7 @@ config servers
 	option alias '[速鹰666] V3-中转3637|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'
