@@ -26,7 +26,7 @@ on:
       older-releases:
         description: '删除releases'
         required: false
-        default: 'true'
+        default: 'false'
       again-fork:
         description: '重新FORK上游仓库'
         required: false
