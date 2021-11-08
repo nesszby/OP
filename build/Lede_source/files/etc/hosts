@@ -1,9 +1,12 @@
 127.0.0.1 localhost
-10.1.1.1 op.c
-10.1.1.5 deb.c rss.hub scholar.c news.c ttrss.c ql.c ninja.c aliyun.c jellyfin.c
+10.1.1.1 op.cc
+10.1.1.2 asus.cc
+10.1.1.5 deb.cc rss.hub scholar.cc news.cc ttrss.cc ql.cc ninja.cc aliyun.cc jellyfin.cc
 10.1.1.7 deb.vm
-10.1.1.10 ds.c
-10.1.1.237 ubuntu.c
+10.1.1.10 synology.cc
+10.1.1.20 pc.cc
+10.1.1.23 mac.cc
+10.1.1.237 ubuntu.cc
 
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
