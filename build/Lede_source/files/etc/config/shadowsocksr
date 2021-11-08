@@ -32,6 +32,7 @@ config access_control
 	list wan_fw_ips '109.239.140.0/24'
 	list Interface 'lan'
 	option lan_ac_mode 'w'
+	list lan_fp_ips '10.1.1.231'
 	list lan_ac_ips '10.1.1.2'
 	list lan_ac_ips '10.1.1.3'
 	list lan_ac_ips '10.1.1.5'
@@ -45,7 +46,11 @@ config access_control
 	list lan_ac_ips '10.1.1.32'
 	list lan_ac_ips '10.1.1.178'
 	list lan_ac_ips '10.1.1.237'
-	list lan_fp_ips '10.1.1.231'
+	list lan_ac_ips '10.1.1.114'
+	list lan_ac_ips '10.1.1.113'
+	list lan_ac_ips '10.1.1.153'
+	list lan_ac_ips '10.1.1.156'
+	list lan_ac_ips '10.1.1.122'
 
 config socks5_proxy
 	option server 'nil'
@@ -95,6 +100,42 @@ config servers
 	option protocol 'auth_aes128_md5'
 	option local_port '1234'
 	option kcp_param '--nocomp'
+	option server_port '13446'
+	option grouphashkey 'dfe8be28a10060ebac132f39dc048558'
+	option password 'Cskw6d'
+	option hashkey '5bf5932e0da59f1508a88d1288ed0e1e'
+	option encrypt_method 'rc4-md5'
+	option obfs_param 'd5c87103175.microsoft.com'
+	option obfs 'tls1.2_ticket_auth'
+	option protocol_param '103175:SN4Xdk'
+	option alias '[速鹰666] V3-中转3446|广东-香港HGC|解锁|x2.0'
+	option server 'guangdong01.ddns-only.xyz'
+	option switch_enable '0'
+	option ip '120.232.214.27'
+
+config servers
+	option type 'ssr'
+	option protocol 'auth_aes128_md5'
+	option local_port '1234'
+	option kcp_param '--nocomp'
+	option server_port '13447'
+	option grouphashkey 'dfe8be28a10060ebac132f39dc048558'
+	option password 'Cskw6d'
+	option hashkey '2f9a7f91426fdb9b12184473a9ca6e9f'
+	option encrypt_method 'rc4-md5'
+	option obfs_param 'd5c87103175.microsoft.com'
+	option obfs 'tls1.2_ticket_auth'
+	option protocol_param '103175:SN4Xdk'
+	option alias '[速鹰666] V3-中转3447|广东-香港HGC|解锁|x2.0'
+	option server 'guangdong01.ddns-only.xyz'
+	option switch_enable '0'
+	option ip '120.232.214.27'
+
+config servers
+	option type 'ssr'
+	option protocol 'auth_aes128_md5'
+	option local_port '1234'
+	option kcp_param '--nocomp'
 	option server_port '13633'
 	option grouphashkey 'dfe8be28a10060ebac132f39dc048558'
 	option password 'Cskw6d'
@@ -106,6 +147,7 @@ config servers
 	option alias '[速鹰666] V3-中转3633|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'
@@ -157,7 +199,6 @@ config servers
 	option alias '[速鹰666] V3-中转3637|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
-	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'
@@ -175,7 +216,6 @@ config servers
 	option alias '[速鹰666] V3-中转3638|广东-美国|解锁|x2.5'
 	option server 'guangdong-gugu.ddns-only.xyz'
 	option switch_enable '0'
-	option ip '120.232.215.198'
 
 config servers
 	option type 'ssr'
