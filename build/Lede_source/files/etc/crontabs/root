@@ -1,3 +1,0 @@
-* * * * * sh /etc/config/my_watchdog.sh
-#0 */1 * * * /etc/init.d/ddnsto restart
-*/40 * * * * /etc/init.d/frp restart
