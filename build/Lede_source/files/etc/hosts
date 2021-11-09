@@ -1,7 +1,7 @@
 127.0.0.1 localhost
 10.1.1.1 op.cc
 10.1.1.2 asus.cc
-10.1.1.5 deb.cc rss.hub scholar.cc news.cc ttrss.cc ql.cc ninja.cc aliyun.cc jellyfin.cc
+10.1.1.5 deb.cc rss.hub scholar.cc news.cc ql.cc ninja.cc aliyun.cc jellyfin.cc container.cc
 10.1.1.7 deb.vm
 10.1.1.10 synology.cc
 10.1.1.20 pc.cc
