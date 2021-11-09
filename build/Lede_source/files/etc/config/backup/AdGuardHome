@@ -1,0 +1,18 @@
+
+config AdGuardHome 'AdGuardHome'
+	option httpport '3000'
+	option configpath '/etc/config/AdGuardHome.yaml'
+	option workdir '/tmp/AdGuardHome'
+	option logfile '/tmp/AdGuardHome.log'
+	option verbose '0'
+	option binpath '/usr/bin/AdGuardHome'
+	option redirect 'dnsmasq-upstream'
+	option waitonboot '0'
+	option hostsmd5 '5504bb04bd01cb0e340aee9e2ae065b2'
+	option version 'v0.105.2'
+	option enabled '0'
+	option binmtime '1618060802'
+	list old_redirect 'dnsmasq-upstream'
+	list old_port '5553'
+	list old_enabled '0'
+
