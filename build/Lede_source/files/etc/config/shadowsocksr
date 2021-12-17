@@ -13,7 +13,7 @@ config global
 	option enable_switch '0'
 	option adblock '0'
 	option run_mode 'router'
-	option global_server 'cfg074a8f'
+	option global_server 'cfg064a8f'
 
 config server_subscribe
 	option auto_update_time '2'
@@ -57,7 +57,7 @@ config servers
 	option alias '[速鹰666] V3-中转3340|广东X-香港HKT|x2.0'
 	option server 'gd-x-sy183.ddns-only.xyz'
 	option switch_enable '0'
-	option ip '183.232.56.211'
+	option ip '183.232.56.98'
 
 config servers
 	option type 'ssr'
@@ -75,7 +75,7 @@ config servers
 	option alias '[速鹰666] V3-中转3342|广东X-香港HKT|x2.0'
 	option server 'gd-x-sy183.ddns-only.xyz'
 	option switch_enable '0'
-	option ip '183.232.56.211'
+	option ip '183.232.56.98'
 
 config servers
 	option type 'ssr'
