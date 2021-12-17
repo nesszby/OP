@@ -1,0 +1,30 @@
+#
+#  Lookup man 5 ethers for syntax documentation
+#
+#  Examples :
+#	02:00:11:22:33:44	OpenWrt.lan
+#	02:00:11:22:33:44	192.168.1.1
+# pc
+24-4B-FE-58-33-C0 10.1.1.20
+18-26-49-C5-DD-6B 10.1.1.30
+# iphone
+CE:63:9A:C0:82:93 10.1.1.21
+# ipad
+2E:B2:37:E1:5C:EC 10.1.1.22
+# mac
+1C:69:7A:6E:0E:F1 10.1.1.23
+30:35:AD:AC:99:E2 10.1.1.24
+# p10
+B0:E5:ED:DF:3A:74 10.1.1.31
+# honor
+C8:14:51:B2:42:B8 10.1.1.32
+# zhengtai-pc
+88:97:46:14:77:0E 10.1.1.51
+# zhengtai-synology
+88:97:46:1C:6D:85 10.1.1.52
+# zhengtai-debian
+88:97:46:25:96:B0 10.1.1.53
+# rpiplay
+B8:27:EB:0C:10:7C 10.1.1.50
+# mac of long
+8C:85:90:43:BD:C1 10.1.1.101
