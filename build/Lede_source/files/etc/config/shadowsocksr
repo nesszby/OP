@@ -13,7 +13,7 @@ config global
 	option enable_switch '0'
 	option adblock '0'
 	option run_mode 'router'
-	option global_server 'cfg064a8f'
+	option global_server 'cfg074a8f'
 
 config server_subscribe
 	option auto_update_time '2'
