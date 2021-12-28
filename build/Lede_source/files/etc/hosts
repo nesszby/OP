@@ -8,11 +8,6 @@
 10.1.1.9 ubuntu.cc
 10.1.1.10 synology.cc
 10.1.1.20 pc.cc
-10.1.1.21 iphone.cc
-10.1.1.22 ipad.cc
-10.1.1.23 mac.cc
-10.1.1.31 p10.cc
-10.1.1.32 honor.cc
 
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
