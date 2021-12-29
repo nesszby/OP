@@ -93,6 +93,7 @@ config servers
 	option alias '[速鹰666] V3-中转3446|广东W-香港HGC|解锁|x2.0'
 	option server 'gd-w-suying.ddns-only.xyz'
 	option switch_enable '0'
+	option ip '120.232.215.138'
 
 config servers
 	option type 'ssr'

@@ -6,6 +6,6 @@ config eqos
 
 config device
 	option ip '10.1.1.128/25'
-	option download '53500'
-	option upload '53500'
+	option download '800'
+	option upload '800'
 

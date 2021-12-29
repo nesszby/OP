@@ -12,11 +12,11 @@ config frp 'common'
 	option token 'freefrp.net'
 	option vhost_http_port '32180'
 	option vhost_https_port '32143'
-	option enabled '1'
 	option server_addr 'frp3.freefrp.net'
 	option user 'op'
 	option tls_enable '0'
 	option admin_enable '0'
+	option enabled '0'
 
 config proxy
 	option enable '1'
